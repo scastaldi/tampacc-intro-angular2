@@ -1,5 +1,6 @@
-# Logs
-logs
+/app/*.js
+/app/*.map
+
 *.log
 npm-debug.log*
 
