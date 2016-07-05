@@ -20,5 +20,9 @@ find out what was missing and continue with the lesson.
 Each step is a git branch, for example, if the student wants to go to step 1 just need to type from the command:
 $ git checkout step1
 
+master:
+we start with our master branch, here we have the basic tools to start our angular2 application
+index.html, package.json, tsconfig.json, systemjs.config.js, typings.json, node_modules
+
 
 
