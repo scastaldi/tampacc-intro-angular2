@@ -3,6 +3,7 @@ Introduction to Angular2
 This project was made as a progressive learning tool, for students to be able to learn step by step. 
 
 Prerequisites:
+- git
 - NodeJS 6.x
 - npm 3.x
 
