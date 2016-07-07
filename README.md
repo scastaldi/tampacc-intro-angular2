@@ -24,5 +24,15 @@ master:
 we start with our master branch, here we have the basic tools to start our angular2 application
 index.html, package.json, tsconfig.json, systemjs.config.js, typings.json, node_modules
 
-step1: 
-we focus on explaining the basic components to start our new application:
+step1: we focus on explaining the basic components to start our new application:
+app.component is the starting point of all angular2 apps, where most of the components are imported.
+moduleid: used by CommonJS to resolve template urls and styles, if not declare it will always look in the root folder
+selector: name of the component (always use kebab notation) 
+template: used for inline html, remember to use back tick ` for multiline
+templateUrl: refer to an external html used by the component
+styles: Array of styles used by the component,
+directives: Array of directives used by the component
+
+step2: create EmployeeListComponent, move inline html to external html
+First we create a folder for the employeelist
+use templateUrl to separate html from javascript
