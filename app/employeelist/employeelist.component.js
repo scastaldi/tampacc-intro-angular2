@@ -15,7 +15,8 @@ var EmployeeListComponent = (function () {
         this.employeeService = employeeService;
     }
     EmployeeListComponent.prototype.getEmployees = function () {
-        return this.employeeService.getEmployees();
+        var _this = this;
+        this.employeeService.getEmployeesSlow().then(function (e) { return _this.employees = e; });
     };
     EmployeeListComponent.prototype.ngOnInit = function () {
         this.employees = this.getEmployees();
