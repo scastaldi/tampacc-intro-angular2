@@ -36,3 +36,7 @@ directives: Array of directives used by the component
 step2: create EmployeeListComponent, move inline html to external html
 First we create a folder for the employeelist
 use templateUrl to separate html from javascript
+
+step3: create a simple EmployeeService that returns a static list of employees, also create a EmployeeModel
+
+
