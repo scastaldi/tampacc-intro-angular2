@@ -13,6 +13,7 @@ Feel free to download a zip version or from the command prompt
 
 ```
 $ git clone https://github.com/scastaldi/tampacc-intro-angular2.git
+$ cd tampacc-intro-angular2/
 $ git pull -all
 $ git checkout master (or any branch you want to checkout)
 $ npm install
