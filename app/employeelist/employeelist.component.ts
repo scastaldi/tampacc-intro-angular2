@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Pipe } from '@angular/core';
 import { EmployeeModel } from '../employee-model';
 import { EmployeeService } from '../employee.service';
 @Component({
@@ -8,6 +8,7 @@ import { EmployeeService } from '../employee.service';
 })
 export class EmployeeListComponent implements OnInit {
   employees : EmployeeModel[]; 
+  orderColumn:string='firstName';
   constructor(private employeeService : EmployeeService){}
   getEmployees():any {
      this.employeeService.getEmployeesSlow().then(e => this.employees = e);

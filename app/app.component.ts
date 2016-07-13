@@ -4,7 +4,7 @@ import { EmployeeService } from './employee.service';
 @Component({
     moduleId: module.id,
     selector: 'my-app',
-    template: '<div>Hello Tampa Code Camp!</div><employeelist></employeelist>',
+    template: '<div><h1>Tampa Code Camp!</h1></div><employeelist></employeelist>',
     directives: [EmployeeListComponent],
     providers: [EmployeeService]
 })

@@ -13,6 +13,7 @@ var employee_service_1 = require('../employee.service');
 var EmployeeListComponent = (function () {
     function EmployeeListComponent(employeeService) {
         this.employeeService = employeeService;
+        this.orderColumn = 'firstName';
     }
     EmployeeListComponent.prototype.getEmployees = function () {
         var _this = this;
