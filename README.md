@@ -44,7 +44,8 @@ use templateUrl to separate html from javascript
 
 **step3**: create a simple EmployeeService that returns a static list of employees, also create a EmployeeModel
 
-**step4**: create a simple Promise we will talk about RxJs but it will not be cover in the introductory course
+**step4**: create a simple Promise we will talk about RxJs but it will not be cover in the introductory course. 
+create settings.json to hide .js files from the project  
 
 
 
