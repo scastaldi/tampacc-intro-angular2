@@ -47,4 +47,4 @@ use templateUrl to separate html from javascript
 **step4**: create a simple Promise we will talk about RxJs but it will not be cover in the introductory course. 
 create settings.json to hide .js files from the project 
 
-**step5**: add a quick formatting with bootstrap
+**step5**: add a simple styling to our code with CSS
