@@ -26,10 +26,9 @@ var EmployeeListComponent = (function () {
             selector: 'employeelist',
             templateUrl: 'employeelist.template.html'
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof employee_service_1.EmployeeService !== 'undefined' && employee_service_1.EmployeeService) === 'function' && _a) || Object])
+        __metadata('design:paramtypes', [employee_service_1.EmployeeService])
     ], EmployeeListComponent);
     return EmployeeListComponent;
-    var _a;
 }());
 exports.EmployeeListComponent = EmployeeListComponent;
 //# sourceMappingURL=employeelist.component.js.map
