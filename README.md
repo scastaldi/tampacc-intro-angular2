@@ -1,21 +1,19 @@
 # tampacc-intro-angular2
-Introduction to Angular2
-This project was made as a progressive learning tool, for students to be able to learn step by step. 
+## Introduction to Angular2
 
-Prerequisites:
+### This project was made as a progressive learning tool, for students to be able to learn step by step. 
+
+**Prerequisites:**
 - NodeJS 6.x
 - npm 3.x
 
-The source code is located at:
-https://github.com/scastaldi/tampacc-intro-angular2
-
-Feel free to download a zip version or from the command prompt
+Feel free to download a zip version or use the git command prompt (preferred)
 
 ```
 $ git clone https://github.com/scastaldi/tampacc-intro-angular2.git
 $ cd tampacc-intro-angular2/
 $ git pull -all
-$ git checkout master (or any branch you want to checkout)
+$ git checkout step0 (or any branch you want to checkout)
 $ npm install
 $ npm start
 ```
@@ -25,7 +23,7 @@ find out what was missing and continue with the lesson.
 Each step is a git branch, for example, if the student wants to go to step 1 just need to type from the command:
 $ git checkout step1
 
-**master**:
+**step0**:
 we start with our master branch, here we have the basic tools to start our angular2 application
 index.html, package.json, tsconfig.json, systemjs.config.js, typings.json, node_modules
 
