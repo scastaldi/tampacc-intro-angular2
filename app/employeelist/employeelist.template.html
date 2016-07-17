@@ -1,0 +1,17 @@
+<table>
+ <thead>
+  <tr>
+     <th>First Name</th>
+     <th>Last Name</th>
+     <th>Date of Birth</th>
+  </tr>
+ </thead>
+ <tbody>
+    <div *ngIf="!employees">... loading</div>
+    <tr *ngFor="let e of employees" >
+        <td>{{ e.firstName }}</td>
+        <td>{{ e.lastName }}</td>
+        <td>{{ e.dob }}</td>
+    </tr>
+ </tbody>
+</table>
