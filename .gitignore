@@ -1,5 +1,6 @@
 /app/*.js
 /app/*.map
+.vscode
 
 # Logs
 logs	
