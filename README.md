@@ -46,3 +46,6 @@ use templateUrl to separate html from javascript
 create settings.json to hide .js files from the project 
 
 **step5**: add a simple styling to our code with CSS
+
+**step6**: upgrade to rc.5
+

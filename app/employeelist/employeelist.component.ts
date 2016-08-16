@@ -1,6 +1,6 @@
 import { Component, OnInit, Pipe } from '@angular/core';
-import { EmployeeModel } from '../employee-model';
 import { EmployeeService } from '../employee.service';
+import { EmployeeModel } from '../employee-model';
 @Component({
   moduleId: module.id,
   selector: 'employeelist',
