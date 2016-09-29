@@ -49,3 +49,5 @@ create settings.json to hide .js files from the project
 
 **step6**: upgrade to rc.5
 
+**updated to 2.0.1**: only updated the package.json 
+
