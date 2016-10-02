@@ -49,5 +49,14 @@ create settings.json to hide .js files from the project
 
 **step6**: upgrade to rc.5
 
-**2.0.1**: updated the package.json to antular2 2.0.1
+**step7**: upgrade to antular 2.0.1
+
+**Because we upgraded the project, you need to reinstall the npm packages:**
+``` 
+$ npm cache clean
+$ npm install
+```
+
+
+
 
